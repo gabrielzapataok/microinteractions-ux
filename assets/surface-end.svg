@@ -1,0 +1,11 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgb(35, 5, 90);
+      }
+    </style>
+  </defs>
+  <title>punta</title>
+  <path class="cls-1" d="M390,80H300V0h10a40,40,0,0,1,40,40A40,40,0,0,0,390,80Z" transform="translate(-300)"/>
+</svg>

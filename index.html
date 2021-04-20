@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta name="description" content="">-->
+    <link rel="stylesheet" href="style.css">
+    <title>Menú animable</title>
+</head>
+<body>
+    <main>
+        <section id="container-main">SECTION</section>
+    </main>
+    <nav>
+        <div id="container-menu">
+            <div id="container-surface">
+                <div id="surface"></div>
+            </div>
+            <label for="home">
+                <a href="/triangle"></a>
+                <input type="radio" name="menu" id="home">
+                <img class="topIcon" src="./assets/icons/iconTriangleEnable.svg" alt="icon-enable-triangle">
+                <img class="midIcon" src="./assets/icons/iconTriangleDisable.svg" alt="icon-disable-triangle">
+                <span class="bottomIcon"> TRIANGLE </span>
+            </label>
+            <label for="about">
+                <a href="/quad"></a>
+                <input type="radio" name="menu" id="about">
+                <img class="topIcon" src="./assets/icons/iconQuadEnable.svg" alt="icon-enable-quad">
+                <img class="midIcon" src="./assets/icons/iconQuadDisable.svg" alt="icon-disable-quad">
+                <span class="bottomIcon"> QUAD </span>
+            </label>
+            <label for="port">
+                <a href="/circle"></a>
+                <input type="radio" name="menu" id="port">
+                <img class="topIcon" src="./assets/icons/iconCircleEnable.svg" alt="icon-enable-circle">
+                <img class="midIcon" src="./assets/icons/iconCircleDisable.svg" alt="icon-disable-circle">
+                <span class="bottomIcon"> CIRCLE </span>
+            </label>
+        </div>
+        <script src="nav.js"></script>
+    </nav>
+</body>
+</html>

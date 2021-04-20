@@ -1,0 +1,36 @@
+nav{
+    @include animation(initNav);
+    animation-fill-mode: forwards;
+}
+#surface{
+    transition: .5s;
+}
+.topIcon, .midIcon, .bottomIcon{
+    transition: .4s;
+}
+input:checked{
+    & + .topIcon{
+        top: -12px;
+        transition-timing-function: cubic-bezier(0.1, 1, 0.1 , 1.5);
+        & + .midIcon{
+            bottom: -32px;
+            & + .bottomIcon{
+                bottom: 4px;
+            }
+        }
+    }
+}
+label:hover { 
+    input {
+        & + .topIcon {
+            & + .midIcon {
+                transition: .1s;
+                transform: scale(1.3);
+            }
+        }
+    }
+}
+@keyframes initNav {
+    from{bottom: -100px;}
+    to{bottom: 0px;}
+}

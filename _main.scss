@@ -1,0 +1,19 @@
+/*--------------*\
+|------Main------|
+\*--------------*/
+@import "mixins";
+main{
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    section{
+        background-color: rgb(250,250,250);
+        width: 400px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include text-nav();
+    }
+}

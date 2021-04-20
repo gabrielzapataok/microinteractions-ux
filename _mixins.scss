@@ -1,0 +1,14 @@
+@import "_variables";
+@mixin border($color:black){
+    border: 1px solid $color;
+}
+@mixin animation($name) {
+    animation-name: $name;
+    animation-duration: .5s;
+    animation-fill-mode: both;
+}
+@mixin text-nav() {
+    font-family: $font-primary;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
